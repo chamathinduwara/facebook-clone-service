@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 
-@CrossOrigin(value = "*")
+@CrossOrigin(value = "http://localhost:3000/")
 @RestController
 @RequestMapping("/api/v1/post")
 @AllArgsConstructor
